@@ -28,11 +28,11 @@ class ViewController: UIViewController {
     var timer: Timer!
     
     var images:[UIImage] = [
-        UIImage(named: "angel-luciano-LATYeZyw88c-unsplash")!,
-        UIImage(named: "alvan-nee-eoqnr8ikwFE-unsplash")!,
-        UIImage(named: "alvan-nee-T-0EW-SEbsE-unsplash")!,
-        UIImage(named: "josephine-amalie-paysen--XW35nYkRnk-unsplash")!,
-        UIImage(named: "lui-peng-ybHtKz5He9Y-unsplash")!,
+        UIImage(named: "angel-luciano-LATYeZyw88c-unsplash.jpg")!,
+        UIImage(named: "alvan-nee-eoqnr8ikwFE-unsplash.jpg")!,
+        UIImage(named: "alvan-nee-T-0EW-SEbsE-unsplash.jpg")!,
+        UIImage(named: "josephine-amalie-paysen--XW35nYkRnk-unsplash.jpg")!,
+        UIImage(named: "lui-peng-ybHtKz5He9Y-unsplash.jpg")!,
         
     ]
     
@@ -44,20 +44,23 @@ class ViewController: UIViewController {
         
         zoomupViewController.kakudai = images[self.nowIndex]
         
-        timer.invalidate()
         
-        timer = nil
+        if self.timer != nil  {
+            
+            timer.invalidate()
+            
+            timer = nil
+            
+            startButtton.setTitle("再生", for: .normal)
+            
+            backOutlet.isEnabled = true
+            
+            nextOutlet.isEnabled = true
+            
+        }
         
-        startButtton.setTitle("再生", for: .normal)
-        
-        backOutlet.isEnabled = true
-        
-        nextOutlet.isEnabled = true
         
     }
-    
-    
-    
     
     
     
