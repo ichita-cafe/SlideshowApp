@@ -13,6 +13,7 @@
 		876FD0742556FFE300B97E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD0722556FFE300B97E3E /* Main.storyboard */; };
 		876FD0762556FFE400B97E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876FD0752556FFE400B97E3E /* Assets.xcassets */; };
 		876FD0792556FFE400B97E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD0772556FFE400B97E3E /* LaunchScreen.storyboard */; };
+		876FD089255BF2C200B97E3E /* ZoomupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD088255BF2C200B97E3E /* ZoomupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		876FD0752556FFE400B97E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876FD0782556FFE400B97E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		876FD07A2556FFE400B97E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FD088255BF2C200B97E3E /* ZoomupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				876FD06C2556FFE300B97E3E /* AppDelegate.swift */,
 				876FD06E2556FFE300B97E3E /* SceneDelegate.swift */,
 				876FD0702556FFE300B97E3E /* ViewController.swift */,
+				876FD088255BF2C200B97E3E /* ZoomupViewController.swift */,
 				876FD0722556FFE300B97E3E /* Main.storyboard */,
 				876FD0752556FFE400B97E3E /* Assets.xcassets */,
 				876FD0772556FFE400B97E3E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				876FD0712556FFE300B97E3E /* ViewController.swift in Sources */,
 				876FD06D2556FFE300B97E3E /* AppDelegate.swift in Sources */,
+				876FD089255BF2C200B97E3E /* ZoomupViewController.swift in Sources */,
 				876FD06F2556FFE300B97E3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
