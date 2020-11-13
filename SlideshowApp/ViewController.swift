@@ -44,7 +44,16 @@ class ViewController: UIViewController {
         
         zoomupViewController.kakudai = images[self.nowIndex]
         
-    
+        timer.invalidate()
+        
+        timer = nil
+        
+        startButtton.setTitle("再生", for: .normal)
+        
+        backOutlet.isEnabled = true
+        
+        nextOutlet.isEnabled = true
+        
     }
     
     
@@ -54,6 +63,9 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
+        imageView.image = images[self.nowIndex]
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
